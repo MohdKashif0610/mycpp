@@ -8,6 +8,6 @@ int main(){
     {
         sum=sum+x;
     }
-    
+    cout<<sum;
     return 0;
 }
