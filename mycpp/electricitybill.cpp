@@ -8,9 +8,9 @@ int main() {
     if(units <= 100) {
         cout << "Electricity bill: $" << units * 0.5 << endl;
     } else if(units <= 200) {
-        cout << "Electricity bill: $" << (100 * 0.5) + ((units - 100) * 0.75) << endl;
+        cout << "Electricity bill: $" << (100 * 1.5) + ((units - 100) * 2.0) << endl;
     } else {
-        cout << "Electricity bill: $" << (100 * 0.5) + (100 * 0.75) + ((units - 200) * 1.2) << endl;
+        cout << "Electricity bill: $" << (100 * 1.5) + (100 * 2.0) + ((units - 200) * 3.0) << endl;
     }
     return 0;
 }
