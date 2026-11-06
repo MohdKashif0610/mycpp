@@ -10,5 +10,6 @@ int main(){
         if(x%8==0)
         cout<<endl;
     }
+    
     return 0;
 }
