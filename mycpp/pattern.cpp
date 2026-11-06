@@ -5,6 +5,8 @@ int main(){
     int x,n;
     cin>>n;
     for(x=1;x<=n;x++)
-    
+    {
+        cout<<x<<" ";
+    }
     return 0;
 }
