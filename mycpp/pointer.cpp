@@ -7,6 +7,8 @@ int main(){
     int* b=&a;
     // & --->(Address of) Operator
     cout<<"The Address of a is "<<&a<<endl;
+    cout<<"The Address of a is "<<b<<endl;
+
     
 
     return 0;
