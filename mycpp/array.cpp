@@ -2,6 +2,7 @@
 using namespace std;
 
 int main(){
+    // Array is a collection of similar data types
     int marks[4] = {23, 45, 56, 89};
     cout<<"These are marks"<<endl;
     cout<<marks[0]<<endl;
