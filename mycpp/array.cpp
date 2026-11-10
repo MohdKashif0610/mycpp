@@ -9,6 +9,15 @@ int main(){
     cout<<marks[2]<<endl;
     cout<<marks[3]<<endl;
 
-    
+    int mathmarks[4];
+    mathmarks[0] = 34;
+    mathmarks[1] = 56;
+    mathmarks[2] = 78;
+    mathmarks[3] = 90;
+    cout<<"These are math marks"<<endl;
+    cout<<mathmarks[0]<<endl;
+    cout<<mathmarks[1]<<endl;
+    cout<<mathmarks[2]<<endl;
+    cout<<mathmarks[3]<<endl;
     return 0;
 }
