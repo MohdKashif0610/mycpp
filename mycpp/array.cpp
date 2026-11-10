@@ -17,7 +17,10 @@ int main(){
     cout<<"These are math marks"<<endl;
     cout<<mathmarks[0]<<endl;
     cout<<mathmarks[1]<<endl;
+    // you can change the value of an array
+    mathmarks[2] = 100;
     cout<<mathmarks[2]<<endl;
     cout<<mathmarks[3]<<endl;
+
     return 0;
 }
