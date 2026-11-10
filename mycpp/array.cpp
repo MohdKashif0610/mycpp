@@ -40,8 +40,9 @@ int main(){
         cout<<"The value of marks "<<i<<" is "<<marks[i]<<endl;
         i++;
     }while (i<4);
-
     
+
+
 
     return 0;
 }
