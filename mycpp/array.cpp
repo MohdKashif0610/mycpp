@@ -35,11 +35,11 @@ int main(){
     //     i++;
     // }
 
-    int i = 0;
-    do{
-        cout<<"The value of marks "<<i<<" is "<<marks[i]<<endl;
-        i++;
-    }while (i<4);
+    // int i = 0;
+    // do{
+    //     cout<<"The value of marks "<<i<<" is "<<marks[i]<<endl;
+    //     i++;
+    // }while (i<4);
 
     // Pointers and arrays
     int* p=marks;
