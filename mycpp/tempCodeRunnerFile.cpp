@@ -1,4 +1,5 @@
-   int a= 34;
-    cout<<"the value of a was "<<a<<endl;
-    a= 45;
-    co
+  
+    // for (int i=0; i<4;i++)
+    // {
+    //     cout<<"The value of marks "<<i<<" is "<<marks[i]<<endl;
+    // }

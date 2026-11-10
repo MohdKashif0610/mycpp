@@ -23,9 +23,16 @@ int main(){
     // cout<<mathmarks[3]<<endl;
     // cout<<mathmarks[2]<<endl;
     
-    for (int i=0; i<4;i++)
+    // for (int i=0; i<4;i++)
+    // {
+    //     cout<<"The value of marks "<<i<<" is "<<marks[i]<<endl;
+    // }
+
+    int i = 0;
+    while (i<4)
     {
         cout<<"The value of marks "<<i<<" is "<<marks[i]<<endl;
+        i++;
     }
 
     return 0;
