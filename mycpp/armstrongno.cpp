@@ -3,25 +3,48 @@
 using namespace std;
 
 int main(){
-    int m,a,b,c,d,sum,n;
+    // int m,a,b,c,sum,n;
+    // cin>>n;
+    // m=n;
+    // a=n%10;
+    // n=n/10;
+    // b=n%10;
+    // n=n/10;
+    // c=n;
+    // sum= pow(a,3) + pow(b,3) + pow(c,3);
+
+    // if(sum==m)
+    // {
+    //     cout<<"Armstrong number";
+    // }
+    // else
+    // {
+    //     cout<<" not Arnstrong number";
+    // }
+    // return 0;
+
+    // with loop
+    int n,m,r,c=0,sum=0;
     cin>>n;
     m=n;
-    a=n%10;
-    n=n/10;
-    b=n%10;
-    n=n/10;
-    c=n%10;
-    n=n/10;
-    d=n;
-    sum= pow(a,4) + pow(b,4) + pow(c,4) + pow(d,4);
-
+    while(n>0)
+    {
+        n=n/10;
+        c++;
+    }
+    n=m;
+    while(n>0)
+    {
+        r=n%10;
+        sum=sum+round(pow(r,c));
+        n=n/10;
+    }
     if(sum==m)
     {
         cout<<"Armstrong number";
     }
     else
     {
-        cout<<" not Arnstrong number";
+        cout<<" not Armstrong number";
     }
-    return 0;
 }
