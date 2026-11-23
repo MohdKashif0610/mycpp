@@ -2,23 +2,39 @@
 using namespace std;
 
 int main(){
-    int i,j,count;
-    cout<<"enter the number";
-    cin>>i;
-    count=0;
-    for (j = 1; j <=i; j++)
+    // int i,j,count;
+    // cout<<"enter the number";
+    // cin>>i;
+    // count=0;
+    // for (j = 1; j <=i; j++)
+    // {
+    //     if (i % j == 0)
+    //     {
+    //         count++;
+    //     }
+    // }
+    // if (count == 2)
+    // {
+    //     cout << i << " is a prime number." << endl;
+    // }
+    // else
+    // {
+    //     cout << i << " is not a prime number." << endl;
+    // }
+
+    int n,x;
+    cin>>n;
+    for (x=2;x<n/2;x++)
     {
-        if (i % j == 0)
-        {
-            count++;
-        }
+        if (n%x==0)
+            break;
     }
-    if (count == 2)
+    if (x>=n/2)
     {
-        cout << i << " is a prime number." << endl;
+        cout<<"prime number";   
     }
     else
     {
-        cout << i << " is not a prime number." << endl;
+        cout<<"not prime number";
     }
 }
