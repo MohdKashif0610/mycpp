@@ -47,7 +47,9 @@ int main(){
         printboard();
     }
 
-
     printboard();
     return 0;
+}
+void makemove(int pos, char player){
+     
 }
