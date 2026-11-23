@@ -27,5 +27,13 @@ void printboard(){
 int main(){
     resetboard();
     printboard();
+    int pos;
+    cout<<"Position choose karo (1-9): "<<endl;
+    cin>>pos;
+    int row = (pos-1)/3;
+    int col = (pos-1)%3;
+    board[row][col] = 'X';
+    
+    printboard();
     return 0;
 }
