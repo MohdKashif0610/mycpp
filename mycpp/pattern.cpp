@@ -13,12 +13,22 @@ int main(){
     
     // return 0;
 
-    int x,y;
+    // int x,y;
+    // for (x=1;x<=5;x++)
+    // {
+    //     for(y=1;y<=x;y++)
+    //     {
+    //         cout<<(char)(y+64);
+    //     }
+    //     cout<<endl;
+    // }
+
+      int x,y;
     for (x=1;x<=5;x++)
     {
         for(y=1;y<=x;y++)
         {
-            cout<<(char)(y+64);
+            cout<<(char)(x+64);
         }
         cout<<endl;
     }
