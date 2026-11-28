@@ -57,6 +57,20 @@ int main(){
     //     cout<<endl;
     // }
 
+    // int x,y;
+    // for (x=1;x<=5;x++)
+    // {
+    //     for(y=1;y<=5-x;y++)
+    //     {
+    //         cout<<" ";
+    //     }
+    //     for(y=1;y<=2*x-1;y++)
+    //     {
+    //         cout<<"*";
+    //     }
+    //     cout<<endl;
+    // }
+
     int x,y;
     for (x=1;x<=5;x++)
     {
@@ -66,7 +80,7 @@ int main(){
         }
         for(y=1;y<=2*x-1;y++)
         {
-            cout<<"*";
+            cout<<y;
         }
         cout<<endl;
     }
