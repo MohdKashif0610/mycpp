@@ -71,6 +71,20 @@ int main(){
     //     cout<<endl;
     // }
 
+    // int x,y;
+    // for (x=1;x<=5;x++)
+    // {
+    //     for(y=1;y<=5-x;y++)
+    //     {
+    //         cout<<" ";
+    //     }
+    //     for(y=1;y<=2*x-1;y++)
+    //     {
+    //         cout<<y;
+    //     }
+    //     cout<<endl;
+    // }
+
     int x,y;
     for (x=1;x<=5;x++)
     {
@@ -78,9 +92,9 @@ int main(){
         {
             cout<<" ";
         }
-        for(y=1;y<=2*x-1;y++)
+        for(y=65;y<=63+x*2;y++)
         {
-            cout<<y;
+            cout<<(char)y;
         }
         cout<<endl;
     }
