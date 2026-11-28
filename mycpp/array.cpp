@@ -71,30 +71,63 @@ int main(){
     //     cout<<A[x]<<" ";
     // }
 
-    int A[5];
-    int x,a;
+    // int A[5];
+    // int x,a;
+    // for(x=0;x<5;x++)
+    // {
+    //     cin>>A[x];
+    // }
+    // for (x=0;x<5;x++)
+    // {
+    //     cout<<A[x]<<" ";
+    // }
+    // cin>>a;
+    // for (x=0;x<5;x++)
+    // {
+    //     if(A[x]==a)
+    //     {
+    //         break;
+    //     }
+    // }
+    // if(x==5)
+    // {
+    //     cout<<"-1";
+
+    // }
+    // else{
+    //     cout<<x+1;
+    // }
+
+    int A[5],x,a,sum,max,min,count=0;
+    float avg;
     for(x=0;x<5;x++)
     {
         cin>>A[x];
     }
-    for (x=0;x<5;x++)
-    {
-        cout<<A[x]<<" ";
-    }
+    // for (x=0;x<5;x++)
+    // {
+    //     cout<<A[x]<<" ";
+    // }
     cin>>a;
-    for (x=0;x<5;x++)
+    sum=A[0];
+    max=A[0];
+    min=A[0];
+    for (x=1;x<5;x++)
     {
+        if(A[x]>max)
+        {
+            max= A[x];
+        }
+        if(A[x]<min)
+        {
+            min=A[x];
+        }
+        sum=sum+A[x];
         if(A[x]==a)
         {
-            break;
+            count++;
         }
+        avg=sum/5.0;
     }
-    if(x==5)
-    {
-        cout<<"-1";
-
-    }
-    else{
-        cout<<x+1;
-    }
+    cout<<max<<","<<min<<","<<count<<","<<(avg);
 }
