@@ -60,8 +60,19 @@ int main(){
     //     cout<<A[x]<<endl;
     // }
 
+    // int A[5];
+    // int x;
+    // for(x=0;x<5;x++)
+    // {
+    //     cin>>A[x];
+    // }
+    // for (x=0;x<5;x++)
+    // {
+    //     cout<<A[x]<<" ";
+    // }
+
     int A[5];
-    int x;
+    int x,a;
     for(x=0;x<5;x++)
     {
         cin>>A[x];
@@ -69,5 +80,21 @@ int main(){
     for (x=0;x<5;x++)
     {
         cout<<A[x]<<" ";
+    }
+    cin>>a;
+    for (x=0;x<5;x++)
+    {
+        if(A[x]==a)
+        {
+            break;
+        }
+    }
+    if(x==5)
+    {
+        cout<<"-1";
+
+    }
+    else{
+        cout<<x+1;
     }
 }
