@@ -3,12 +3,12 @@ using namespace std;
 
 int main(){
     // Array is a collection of similar data types
-    int marks[4] = {23, 45, 56, 89};
-    cout<<"These are marks"<<endl;
-    cout<<marks[0]<<endl;
-    cout<<marks[1]<<endl;
-    cout<<marks[2]<<endl;
-    cout<<marks[3]<<endl;
+    // int marks[4] = {23, 45, 56, 89};
+    // cout<<"These are marks"<<endl;
+    // cout<<marks[0]<<endl;
+    // cout<<marks[1]<<endl;
+    // cout<<marks[2]<<endl;
+    // cout<<marks[3]<<endl;
 
     // int mathmarks[4];
     // mathmarks[0] = 34;
@@ -51,5 +51,12 @@ int main(){
     // cout<<"The value of *(p+3) is "<<*(p+3)<<endl;
 
     
-    return 0;
+    // return 0;
+
+    int A[5] = {2, 4, 6, 8, 10};
+    int x;
+    for (x=0;x<5;x++)
+    {
+        cout<<A[x]<<endl;
+    }
 }
