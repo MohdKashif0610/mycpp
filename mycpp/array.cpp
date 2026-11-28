@@ -53,10 +53,21 @@ int main(){
     
     // return 0;
 
-    int A[5] = {2, 4, 6, 8, 10};
+    // int A[5] = {2, 4, 6, 8, 10};
+    // int x;
+    // for (x=0;x<5;x++)
+    // {
+    //     cout<<A[x]<<endl;
+    // }
+
+    int A[5];
     int x;
+    for(x=0;x<5;x++)
+    {
+        cin>>A[x];
+    }
     for (x=0;x<5;x++)
     {
-        cout<<A[x]<<endl;
+        cout<<A[x]<<" ";
     }
 }
