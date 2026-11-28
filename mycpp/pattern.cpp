@@ -135,7 +135,36 @@ int main(){
     //     cout<<endl;
     // }
 
-    int x,y,z=1;
+    // int x,y,z=1;
+    // for (x=1;x<=5;x++)
+    // {
+    //     for(y=1;y<=5-x;y++)
+    //     {
+    //         cout<<" ";
+    //     }
+    //     for(y=1;y<=2*x-1;y++)
+    //     {
+    //         if(z==1)
+    //         {
+    //             cout<<z;
+    //             z=2;
+    //         }
+    //         else if(z==2)
+    //         {
+    //             cout<<z;
+    //             z=3;
+    //         }
+    //         else
+    //         {
+    //             cout<<z;
+    //             z=1;
+    //         }
+    //     }
+    //     cout<<endl;
+    // }
+
+    char z='A';
+    int x,y;
     for (x=1;x<=5;x++)
     {
         for(y=1;y<=5-x;y++)
@@ -144,20 +173,20 @@ int main(){
         }
         for(y=1;y<=2*x-1;y++)
         {
-            if(z==1)
+            if(z=='A')
             {
                 cout<<z;
-                z=2;
+                z='B';
             }
-            else if(z==2)
+            else if(z=='B')
             {
                 cout<<z;
-                z=3;
+                z='C';
             }
             else
             {
                 cout<<z;
-                z=1;
+                z='A';
             }
         }
         cout<<endl;
