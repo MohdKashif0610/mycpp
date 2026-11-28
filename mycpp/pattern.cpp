@@ -85,6 +85,38 @@ int main(){
     //     cout<<endl;
     // }
 
+    // int x,y;
+    // for (x=1;x<=5;x++)
+    // {
+    //     for(y=1;y<=5-x;y++)
+    //     {
+    //         cout<<" ";
+    //     }
+    //     for(y=65;y<=63+x*2;y++)
+    //     {
+    //         cout<<(char)y;
+    //     }
+    //     cout<<endl;
+    // }
+
+    // int x,y;
+    // for (x=1;x<=5;x++)
+    // {
+    //     for(y=1;y<=5-x;y++)
+    //     {
+    //         cout<<" ";
+    //     }
+    //     for(y=1;y<=x;y++)
+    //     {
+    //         cout<<y;
+    //     }
+    //     for(y=x-1;y>=1;y--)
+    //     {
+    //         cout<<y;
+    //     }
+    //     cout<<endl;
+    // }
+
     int x,y;
     for (x=1;x<=5;x++)
     {
@@ -92,9 +124,13 @@ int main(){
         {
             cout<<" ";
         }
-        for(y=65;y<=63+x*2;y++)
+        for(y=x;y>=1;y--)
         {
-            cout<<(char)y;
+            cout<<y;
+        }
+        for(y=2;y<=x;y++)
+        {
+            cout<<y;
         }
         cout<<endl;
     }
