@@ -33,10 +33,24 @@ int main(){
     //     cout<<endl;
     // }
 
+    // int x,y;
+    // for (x=5;x>=1;x--)
+    // {
+    //     for(y=1;y<=x;y++)
+    //     {
+    //         cout<<"*";
+    //     }
+    //     cout<<endl;
+    // }
+
     int x,y;
     for (x=5;x>=1;x--)
     {
-        for(y=1;y<=x;y++)
+        for(y=1;y<=5-x;y++)
+        {
+            cout<<" ";
+        }
+        for(y=1;y<=2*x-1;y++)
         {
             cout<<"*";
         }
